@@ -15,7 +15,7 @@ The purpose of this exercise is to get you familiar with setting up python proje
 - Use appropriate status codes. For example, if the server can't process a request because it has too little information from the client, you might respond with a status code of 400 or 409.
 - Next, define the following routes in urls.py:
     - `/rectangle/area/<int:height>/<int:width>`
-    - `/rectangle/perimeter<int:height>/<int:width>`
+    - `/rectangle/perimeter/<int:height>/<int:width>`
     - `/circle/area/<int:radius>`
     - `/circle/perimeter/<int:radius>`
 - These route should behave the same as the above routes, but they should get their input from these ordered URL parameters instead of the querystring. 
